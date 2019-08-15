@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_2"
+          android:title="@string/_2_images_per_row"/>
+    <item android:id="@+id/menu_3"
+          android:title="@string/_3_images_per_row"/>
+    <item android:id="@+id/menu_4"
+          android:title="@string/_4_images_per_row"/>
+</menu>

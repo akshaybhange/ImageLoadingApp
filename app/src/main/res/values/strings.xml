@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Image Loading App</string>
+    <string name="search_hint">Search Images</string>
+    <string name="retry">Retry</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="empty_search_result">No results for <b>%s</b></string>
+    <string name="error_msg_loading">Error in loading data</string>
+    <string name="_2_images_per_row">2 images per row</string>
+    <string name="_3_images_per_row">3 images per row</string>
+    <string name="_4_images_per_row">4 images per row</string>
+</resources>

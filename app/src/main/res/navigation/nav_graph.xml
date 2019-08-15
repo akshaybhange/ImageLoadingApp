@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/imageListFragment">
+
+    <fragment android:id="@+id/imageListFragment"
+              android:name="com.ab.demo.ui.imageList.ImageListFragment"
+              android:label="ImageListFragment">
+        <action android:id="@+id/action_imageListFragment_to_imageDetailFragment"
+                app:destination="@id/imageDetailFragment"/>
+    </fragment>
+    <fragment android:id="@+id/imageDetailFragment"
+              android:name="com.ab.demo.ui.imageDetail.ImageDetailFragment"
+              android:label="ImageDetailFragment">
+        <argument android:name="image" app:argType="com.ab.demo.model.Image"/>
+    </fragment>
+</navigation>
